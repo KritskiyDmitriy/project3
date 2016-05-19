@@ -1,0 +1,995 @@
+
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+*{
+	box-sizing:border-box;
+}
+/*body{
+	margin:0 auto;
+}*/
+header{
+	background: url(image/layer-15.png) center no-repeat;
+}
+.wrapper{
+	width: 1210px;
+	margin: 0 auto;
+	color: white;
+	position: relative;
+	padding-top: 2px;
+}
+.menuhead {
+	left:0;
+	padding-top: 28px;
+}
+.menu{
+	display: inline-block;
+	position: absolute;
+	right: 0;	
+}
+.menu a{
+	margin-right: 58px;
+	text-decoration: none;
+}
+.menu a:hover{
+	color: yellow;
+	border-bottom: 1px solid yellow;
+}
+.menu a:last-child{
+	margin-right: 0;
+}
+.menuhead a{
+	display: inline;
+	font-family: Montserrat;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: white;
+}
+ .centerheader h3{
+	color: white;
+	font-family: Kaushan Script;
+	font-size: 72px;
+	text-align: center;
+}
+.centerheader{
+	text-align: center;
+}
+.centerheader h1{
+	color: white;
+	font-family: Montserrat;
+	font-size: 150px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 auto;
+}
+.centerheader h1::after{
+	content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 30px auto 0;
+}
+.butt{
+	display:inline-block;
+	padding: 10px 20px;
+	margin:50px 0 129px;
+	text-align: center;
+	color: white;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 200px;
+	border:2px solid white;
+	text-decoration: none;
+	text-transform: uppercase; 
+}
+.footheader{
+	display: inline-block;
+	font-size: 17px;
+	font-family: Montserrat;
+	text-transform: uppercase;
+	margin: 0 auto;
+	opacity: .5;
+}
+.footheader a{
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	border-top: 3px solid #ccc;
+	position: relative;
+	padding-top: 20px;
+    width: 250px;
+    margin-right: 43px;
+}
+.footheader a:hover{
+	border-color: #fff;
+}
+.footheader a:hover::before{
+	content: '';
+	position: absolute;
+	background-color: #f38181;
+	width: 25%;
+	height: 3px;
+	top:-3px;
+	left: 0;
+}
+span{
+	font-size: 24px;
+}
+.content{
+	position: relative;
+}
+.head1 h3{
+	margin-top: 91px;
+	text-align: center;
+	color: #333;
+	font-family: Kaushan Script;
+	font-size: 24px;
+}
+h1{
+	color: #333;
+	font-family: Montserrat;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+}
+h1::after{
+	content: "";
+    display: block;
+	width: 60px;
+	height: 3px;
+	background-color: #f38181;
+	text-align: center;
+	margin:40px auto;
+}
+.text1 p{
+	text-align:center;
+	color: #999;
+	font-family: Roboto;
+	font-size: 15px;
+	line-height: 24px;
+}
+.picture1{
+	position: relative;
+	display:block;
+	text-align: center;
+	margin:101px 0 0 0;
+}
+.picture1 img{
+	position: relative;
+	top:0;
+	left: 0;
+}
+.picture1 a:hover img{
+	top: -10px;
+	left:-10px;
+	box-shadow: 10px 10px #95e1d3;
+}
+.picture1 a:hover span{
+	visibility: visible;
+}
+.picture1 span{
+	visibility: hidden;
+	position: absolute;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	z-index: 2;
+    margin: 83px 134px;
+
+}
+.picture1 span::before{
+	content: url(image/users.png);
+	display: block;
+	margin: 11px;
+}
+.WhiteFigure-block{
+	margin-top: 110px;
+	text-align: center;
+	background-color: #95e1d3;
+	height: 270px;
+
+}
+.figureinblock span{
+	color: white;
+	font-family: Montserrat;
+	font-size: 72px;
+	text-transform: uppercase;
+	margin-top: 89px;
+}
+.fig{
+	padding-top: 89px;
+	padding-bottom: 89px;
+	width: 20%;
+	display: inline-block;
+	color: white;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	border-left: 1px solid rgba(255,255,255,.3);
+	vertical-align: top;
+
+}
+.fig:last-child{
+	border-right: 1px solid rgba(255,255,255,.3);
+}
+
+.list{
+	text-align: center;
+	width: 100%;
+}
+.icons{
+	display: inline-block;
+	position: relative;
+	display:block;
+	text-align: center;
+	margin:0 auto;
+}
+.place {
+    display: inline-block;
+    margin-top: 66px;
+    width: 33.33%;
+    margin-bottom: 30px;
+
+}
+.place::before{
+	content: "";
+	width: 32px;
+	height: 32px;
+	display: block;
+	background-repeat: no-repeat;
+	float: left;
+}
+.photography::before {
+    background-image: url(image/1.png);
+        margin-top: 22px;
+}
+.web::before {
+    background-image: url(image/2.png);
+        margin-top: 22px;
+}
+.creativity::before {
+    background-image: url(image/3.png);
+        margin-top: 22px;
+}
+.seo::before {
+    background-image: url(image/4.png);
+        margin-top: 22px;
+}
+.css::before {
+    background-image: url(image/5.png);
+        margin-top: 22px;
+}
+.digital::before {
+    background-image: url(image/6.png);
+        margin-top: 22px;
+    }
+.place p {
+	color: #999;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+	float: left;
+	margin-left: 62px;
+	text-align: left;
+	margin-top: -20px;
+	padding-right: 46px;
+}
+
+.place h4 {
+    color: #333;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 10px;
+	float: left;
+	margin-left: 30px;
+}
+
+
+.Iphoneipad-block{
+	background:url(image/backgr2.png) center no-repeat;
+	margin-top: 122px;
+	height: 900px;
+}
+.ipad{
+	position: absolute;
+	display: block;
+	padding-left: 362px;
+	margin: 21px auto;
+}
+.iphone{
+	position: absolute;
+	display: inline-block;
+   	margin: 0 auto
+    z-index: 1;
+    position: absolute;
+    top: 500px;
+    left: 728px;
+}
+.poster{
+	margin-top: 91px;
+	display: inline-block;
+}
+.poster-menu	{
+	display: inline-block;
+	vertical-align: top;
+}
+.text1{
+	margin-top: 46px;
+}
+.poster-menu img{
+	padding: 10px 15px 0px 10px;
+	}
+
+	.poster-menu{
+  	list-style-type: none;
+}
+.poster-menu li{
+	position: relative;
+	width: 450px;
+	text-align: left;
+	color: #999;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 300;
+	font-style: italic;
+	line-height: 24px;
+	padding: 5px;
+	margin: 3px;
+	border: 1px solid #e5e5e5;
+}
+.poster-text{
+  	display: none;
+  	overflow: auto;	
+  	height: 132px;
+  	border: 1px solid #e5e5e5;
+}
+.poster-menu li:hover .poster-text,
+.poster-menu li.poster-text {
+  	display: block;
+}
+
+.poster-menu li:hover::after,
+.poster-menu li.active:after {
+  	/*background-color: #f00;*/
+  	content: url(image/arrowdown.png);
+	width: 21px;
+	height: 12px;
+}
+
+.poster-menu li::after{
+	content: url(image/arrowup.png);
+	width: 21px;
+	height: 12px;
+	position: absolute;
+	right:0;
+	top: 0;
+}
+.Quote-block{
+	background-color: #f8f8f8;
+	position: relative;
+	margin-top: 190px;
+}
+
+.arrow{
+	position: absolute;
+	width: 12px;
+	height: 21px;
+	top:50%;
+	margin-top: -10px;
+}
+.arrow.left{
+	left: 0;
+	background-image: url(image/arrowleft.png);
+}
+.arrow.right{
+	right: 0;
+	background-image: url(image/arrowright.png);
+}
+
+
+.quote-item {
+	margin: 0 87px;
+}
+.quote-img{
+	display: inline-block;
+	border: 3px solid #95e1d3;
+	padding: 44px;
+}
+.quote-content{
+	display: inline-block;
+	margin-left: 65px;
+    vertical-align: top;
+    width: 767px;
+}
+
+.quote-text {
+	color: #999;
+	font-family: Roboto;
+	font-size: 24px;
+	font-style: italic;
+	line-height: 36px;
+}
+.quote-sign{
+	color: #333;
+	font-family: 'Kaushan Script';
+	font-size: 24px;
+}
+.quote-sign:before{
+	content: '';
+    display: inline-block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin-right: 20px;
+}
+.WhoWeAre{
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+	 align-items: center;
+}
+.head-Who{
+	display: block;
+	height: 23px;
+	color: #333;
+	font-family: Kaushan Script;
+	font-size: 24px;
+	font-weight: 400;
+	margin-top: 99px;
+}
+.meet{
+	display: block;
+	color: #333;
+	font-family: Montserrat;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 23px;
+}
+.meet::after{
+	content: "";
+    display: block;
+	width: 60px;
+	height: 3px;
+	background-color: #f38181;
+	text-align: center;
+	margin:40px auto;
+}
+.text-whoweare{
+	height: 39px;
+	color: #999;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: center;
+}
+
+.Photo-men{
+	display: flex;
+	justify-content:space-between;
+	/*align-items: center;*/
+	margin-top: 92px;
+}
+/*.men span{
+	display: block;
+	position: absolute;
+	color: #333;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+}*/
+.podpis-photo{
+	display: flex;
+	justify-content: space-around;
+    margin-top: 31px;
+}
+.podpis{
+	display: block;
+	color: #333;
+	font-family: Montserrat;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.Photo-men a:hover img{
+	top: -10px;
+	left:-10px;
+	box-shadow: 10px 10px #95e1d3;
+}
+.sign{
+	display: flex;
+	justify-content: space-around;
+}
+.sign-portret{
+	color: #999;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 300;
+	font-style: italic;
+	line-height: 24px;
+	margin-right: 35px;
+	
+}
+.logo-hipster{
+	margin-top: 199px;
+}
+.Whatwedo{
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+	 align-items: center;
+}
+.head-What{
+	display: block;
+	height: 23px;
+	color: #333;
+	font-family: Kaushan Script;
+	font-size: 24px;
+	font-weight: 400;
+	margin-top: 99px;
+}
+.our-work{
+	display: block;
+	color: #333;
+	font-family: Montserrat;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 23px;
+}
+.our-work::after{
+	content: "";
+    display: block;
+	width: 60px;
+	height: 3px;
+	background-color: #f38181;
+	text-align: center;
+	margin:40px auto;
+}
+.text-whatwedo{
+	height: 39px;
+	color: #999;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: center;
+}
+.picture-block{
+	display: flex;
+	justify-content: center;
+	margin-top: 102px;
+}
+
+.picture-block1{
+	width: 25%;
+}
+.pic-block .first{
+	vertical-align: bottom;
+}
+.quote-img2{
+	display: inline-block;
+	width: 190px;
+}
+.People-Say{
+	background: url(image/mountain.png) center no-repeat;
+	margin-top: 99px;
+	width: 100%;
+}
+
+.whatpeople{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 831px;
+}
+.Happy-clients{
+	display: block;
+	height: 23px;
+	color: #333;
+	font-family: Kaushan Script;
+	font-size: 24px;
+	font-weight: 400;
+}
+.What-say{
+	display: block;
+	color: #333;
+	font-family: Montserrat;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 23px 0 70px;
+}
+.What-say::after{
+	content: "";
+    display: block;
+	width: 60px;
+	height: 3px;
+	background-color: #f38181;
+	text-align: center;
+	margin:40px auto;
+}
+.mountain-foto{
+	display: flex;
+	flex-wrap:wrap;
+	margin-top: 25px;
+}
+
+.mountain-portret img{
+	float: left;
+
+}
+.foto-persona{
+	display:block;
+	margin:17px 0 0 140px;
+	color: #333;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.foto-sign{
+    position: relative;
+    margin-top: 15px;
+    left: 37px;
+    color: #333;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 24px;
+}
+.text-sign{
+    margin: 37px 0 0 139px;
+    width: 373px;
+    color: #999;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.foto-sign::after{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 40px;
+    left: 132px;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+}
+.mountain-img2{
+	margin-left: 113px;
+}
+.mountain-img4{
+	margin: 25px 0 0 113px;
+}
+
+.latest-block{
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+	 align-items: center;
+}
+.stories{
+	display: block;
+	height: 23px;
+	color: #333;
+	font-family: Kaushan Script;
+	font-size: 24px;
+	font-weight: 400;
+	margin-top: 99px;
+}
+.latest{
+	display: block;
+	color: #333;
+	font-family: Montserrat;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 23px;
+}
+.latest::after{
+	content: "";
+    display: block;
+	width: 60px;
+	height: 3px;
+	background-color: #f38181;
+	text-align: center;
+	margin:40px auto;
+}
+.latest-baner{
+	display: flex;
+	justify-content: space-between;
+
+}
+.baner{
+	display: inline-block;
+	width: 400px;
+	position:relative;
+}
+.baner-link{
+
+	font-family: Montserrat;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 20px;
+    position: absolute;
+}
+.baner-link a{
+	text-decoration: none;
+	color: #333;
+
+
+}
+.baner-quote{
+	color: #999;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-top: 50px;
+}
+.date{
+    display: block;
+    position: absolute;
+    background-color: #95e1d3;
+    width: 60px;
+    height: 70px;
+    text-align: center;
+    bottom: 128px;
+    left: -10px;
+}
+.date p{
+	font-family: Montserrat;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin:0 auto;
+}
+.date span{
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 300;
+	font-style: italic;
+}
+.baner-quote::after{
+	content: '';
+    display: block;
+    width: 380px;
+    border: 1px solid #e5e5e5;
+    margin-top: 21px;
+}
+.report{
+	display:flex;
+	justify-content:space-between;
+	margin-top: 20px;
+}
+
+.report,.eye,.quote-icon{
+	height: 12px;
+	color: #999;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 300;
+	font-style: italic;
+	line-height: 24px;
+}
+.eye::before{
+	content:url(image/eye.png);
+}
+.quote-icon::before{
+	content:url(image/qoute.png);
+}
+.quote-icon{
+	margin: 2px 0 0 15px;
+}
+.report a{
+	text-decoration: none;
+}
+.report3{
+	margin-right:300px;
+}
+.map{
+	margin-top: 150px;
+}
+.Footblock{
+	display: flex;
+	padding-bottom: 69px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 69px;
+}
+.Footblock-1{
+	margin-top: 64px;
+	width:40%;
+}
+.mogo-block h2{
+	margin:0 auto;
+	color: #ccc;
+	font-family: Montserrat;
+	font-size: 46px;
+	font-weight: 700;
+}
+.mogo-block p:first-of-type{
+	margin-top: 42px;
+	width: 462px;
+	color: #999;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+}
+.mogo-block p:last-of-type{
+	width: 96px;
+	height: 15px;
+	color: #333;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+}
+.mogo-block span{
+	font-size: 18px;
+	font-weight: 700;
+	color: #333;
+	width: 96px;
+	height: 15px;
+	color: #333;
+	font-family: Montserrat;
+}
+.mogo-block::after{
+	content: '';
+	display: block;
+	width: 480px;
+	border:1px solid #e5e5e5;
+	margin-top: 21px;
+}
+.Follow-Us{
+	display:flex;
+	margin-top: 18px;
+}
+.Follow-Us h5{
+	margin-right: 24px;
+	height: 13px;
+	color: #999;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 300;
+	font-style: italic;
+	line-height: 24px;
+}
+.Follow-Us a{
+	text-decoration: none;
+}
+.follow{
+	margin-right:10px;
+}
+.e-mail{
+	color: #ccc;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 300;
+	font-style: italic;
+	width: 230px;
+	height: 40px;
+	background-color: white;
+	border: 1px solid #e7e7e7;
+	opacity: .7;
+}
+.Input{
+	margin-top: 39px;
+}
+.button{
+	color: white;
+	width: 150px;
+	height: 40px;
+	background-color: #95e1d3;
+	font-family: Montserrat;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.button input{
+width: 82px;
+height: 11px;
+color: white;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+}
+.blogs{
+	margin:80px 0 0 35px;
+	width: 30%
+}
+.blogs,
+.instagram-block h3{
+	color: #333;
+	font-family: Montserrat;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.footblog {
+	margin-bottom: 31px;
+}
+.footblog h4 {
+	color: #333;
+	font-family: Montserrat;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 10px 0 24px 140px;
+	position: relative;
+
+}
+.footimg1{
+	background:url(image/footblogs1.png) no-repeat left center;
+}
+.footimg2{
+	background:url(image/footblogs2.png) no-repeat left center;
+}
+.footimg3 {
+	background:url(image/footblogs3.png) no-repeat left center;
+}
+.footblog h4::after {
+	text-transform: capitalize;
+	content: "Jan 9, 2016";
+	color: #999;
+	font-family: Roboto;
+	font-size: 13px;
+	font-weight: 300;
+	font-style: italic;
+	position: absolute;
+	top:73%;
+	left:140px;
+}
+.footblog a {
+	color:#333;
+	text-decoration: none;
+}
+.instagram-block {
+	margin:80px 0 0 66px;
+	width: 30%
+}
+.instagram-block a{
+	color: #333;
+	font-family: Roboto;
+	font-size: 13px;
+	font-weight: 300;
+	font-style: italic;
+	line-height: 24px;
+	text-decoration: none;
+}
+.instagram-block ::after a{
+	content: '';
+}
+.copyright p{
+	position: relative;
+	font-family: Montserrat;
+	font-size: 14px;
+	color: black;
+	text-align: center;
+	margin:-24px 0 22px 0;
+}
+.copyright span{
+	color: red;
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
